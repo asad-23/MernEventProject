@@ -16,7 +16,7 @@ const Contact = React.forwardRef((props, ref) => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
 
-    await axios.post("http://localhost:4000/api/v1/message/send",{
+    await axios.post("https://merneventproject.onrender.com/api/v1/message/send",{
       name, email, message, subject
     }, {
       headers: { "Content-Type": "application/json" },
