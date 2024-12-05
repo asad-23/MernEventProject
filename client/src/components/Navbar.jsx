@@ -47,7 +47,7 @@ const Navbar = ({takeMode, scrollToSection}) => {
             </Menu>
           </div>
         </div>
-        <div className='font-bold p-4 text-4xl'>Vadaimma</div>
+        <div className='font-bold p-4 text-4xl'>WELCOME</div>
         <div className='justify-between items-center hidden md:flex'>
           {
             link.map((link, index) => {
